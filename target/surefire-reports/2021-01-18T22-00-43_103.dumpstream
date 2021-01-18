@@ -1,4 +1,4 @@
-# Created at 2021-01-18T21:25:29.919
+# Created at 2021-01-18T22:00:43.753
 Boot Manifest-JAR contains absolute paths in classpath 'D:\TestingWebUI\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 

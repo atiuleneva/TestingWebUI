@@ -1,4 +1,4 @@
-package org.atiuleneva;
+package org.atiuleneva.dz4;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;

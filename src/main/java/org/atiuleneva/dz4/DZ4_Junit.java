@@ -1,4 +1,4 @@
-package org.atiuleneva;
+package org.atiuleneva.dz4;
 
 public class DZ4_Junit {
     public static void main( String[] args ) throws ImpossibleTriangleException, ImpossibleTriangleHugeSideException {

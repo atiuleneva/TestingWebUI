@@ -1,4 +1,4 @@
-package org.atiuleneva;
+package org.atiuleneva.dz3;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
