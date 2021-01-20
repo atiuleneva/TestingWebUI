@@ -1,4 +1,4 @@
-package org.atiuleneva;
+package org.atiuleneva.dz3;
 
 import static org.junit.Assert.assertTrue;
 
