@@ -1,8 +1,7 @@
 package org.atiuleneva.dz4;
 
-import org.junit.Test;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,6 +26,7 @@ public class DZ4_JunitTest {
         double sqr = dz4junit.triangleSquare(3.544,3.7446454654,0.4);
         Assertions.assertEquals(0.629584, sqr, 0.000001);
         logger.trace("Trace Before all tests");
+        //Assertions.assertTrue(false);
     }
 
     @Test
