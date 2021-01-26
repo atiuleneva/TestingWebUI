@@ -1,3 +1,12 @@
-org\atiuleneva\dz5\DZ5_Selenium2Test.class
-org\atiuleneva\dz4\DZ4_JunitTest.class
 org\atiuleneva\dz3\AppTest.class
+org\atiuleneva\dz6\crmTests\LoginTest.class
+org\atiuleneva\dz5\DZ5_Selenium2Test.class
+org\atiuleneva\dz6\diaryTests\DiaryNewsPageTest.class
+org\atiuleneva\dz6\diaryTests\DiaryLoginTest.class
+org\atiuleneva\dz6\Configuration\Configuration.class
+org\atiuleneva\dz6\BaseTest\BaseTest.class
+org\atiuleneva\dz6\diaryTests\DiaryMailTests.class
+org\atiuleneva\dz6\crmTests\CreateContactTest.class
+org\atiuleneva\dz6\crmTests\CreateProjectTest.class
+org\atiuleneva\dz4\DZ4_JunitTest.class
+org\atiuleneva\dz6\diaryTests\DiaryQuotPageTest.class
