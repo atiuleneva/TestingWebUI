@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.atiuleneva.dz5.DZ5_Selenium2Test
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.103 s - in org.atiuleneva.dz5.DZ5_Selenium2Test

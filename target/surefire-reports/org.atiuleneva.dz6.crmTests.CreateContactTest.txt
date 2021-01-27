@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.atiuleneva.dz6.crmTests.CreateContactTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.273 s - in org.atiuleneva.dz6.crmTests.CreateContactTest

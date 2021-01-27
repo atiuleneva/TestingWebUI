@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.atiuleneva.dz4.DZ4_JunitTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.atiuleneva.dz4.DZ4_JunitTest

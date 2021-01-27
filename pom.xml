@@ -18,6 +18,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.surefire.version>3.0.0-M5</maven.surefire.version>
     <junit5.version>5.7.0</junit5.version>
+    <aspectj.version>1.9.4</aspectj.version>
   </properties>
 
   <dependencies>
@@ -120,15 +121,32 @@
           <artifactId>maven-failsafe-plugin</artifactId>
           <version>2.12</version>
         </plugin>
-        <plugin>
-          <artifactId>maven-surefire-report-plugin</artifactId>
-          <version>${maven.surefire.version}</version>
-        </plugin>
         <!-- Лечение проблемы для mvn site:   A required class was missing while executing org.apache.maven.plugins:maven-site-plugin:3.3:site: org/apache/maven/doxia/siterenderer/DocumentContent-->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <version>3.7.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven.surefire.version}</version>
+          <configuration>
+            <testFailureIgnore>true</testFailureIgnore>
+            <includes>
+              <include>**/*Test*.java</include>
+            </includes>
+            <argLine>
+              -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+            </argLine>
+          </configuration>
+          <dependencies>
+            <dependency>
+              <groupId>org.aspectj</groupId>
+              <artifactId>aspectjweaver</artifactId>
+              <version>${aspectj.version}</version>
+            </dependency>
+          </dependencies>
         </plugin>
 
         <plugin>

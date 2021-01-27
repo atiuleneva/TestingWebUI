@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.atiuleneva.dz6.crmTests.CreateContactTest" time="24.273" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.atiuleneva.dz6.diaryTests.DiaryMailTests" time="11.57" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,22 +61,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="createContactTest" classname="org.atiuleneva.dz6.crmTests.CreateContactTest" time="24.248">
-    <system-out><![CDATA[13:06:57.005 [main]  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=87 in cache (valid until 14:05:58 27/01/2021 MSK)
-13:06:57.006 [main]  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome87=87.0.4280.88 in cache (valid until 16:58:30 27/01/2021 MSK)
-13:06:57.007 [main]  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
-13:06:57.009 [main]  TRACE i.g.b.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
-13:06:57.012 [main]  TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe, C:\Users\annat\.cache\selenium\resolution.properties] -- output list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] 
-13:06:57.012 [main]  TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by 87.0.4280.88 -- input list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] -- output list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] 
-13:06:57.012 [main]  TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] -- output list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] 
-13:06:57.013 [main]  DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 87.0.4280.88 found in cache
-13:06:57.014 [main]  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+  <testcase name="diaryMailPage" classname="org.atiuleneva.dz6.diaryTests.DiaryMailTests" time="11.541">
+    <system-out><![CDATA[13:08:14.402 [main]  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=87 in cache (valid until 14:05:58 27/01/2021 MSK)
+13:08:14.403 [main]  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome87=87.0.4280.88 in cache (valid until 16:58:30 27/01/2021 MSK)
+13:08:14.403 [main]  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+13:08:14.405 [main]  TRACE i.g.b.wdm.cache.CacheHandler - Checking if chromedriver exists in cache
+13:08:14.410 [main]  TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by chromedriver -- input list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe, C:\Users\annat\.cache\selenium\resolution.properties] -- output list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] 
+13:08:14.411 [main]  TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by 87.0.4280.88 -- input list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] -- output list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] 
+13:08:14.411 [main]  TRACE i.g.b.wdm.cache.CacheHandler - Filter cache by WIN -- input list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] -- output list [C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe] 
+13:08:14.412 [main]  DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 87.0.4280.88 found in cache
+13:08:14.413 [main]  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\annat\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 3385
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 8105
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-янв 27, 2021 1:07:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+янв 27, 2021 1:08:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
