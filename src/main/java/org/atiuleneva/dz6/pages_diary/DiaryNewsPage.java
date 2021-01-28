@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_diary;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,17 +22,20 @@ public class DiaryNewsPage extends Base {
         super(driver);
     }
 
+    @Step("Add news")
     public DiaryNewsPage addNews() throws InterruptedException {
         addNewsToQuote.click();
         Thread.sleep(3000);
         return this;
     }
 
+    @Step("Save news header")
     public DiaryNewsPage saveNewsHeader(){
         tatuHeader = tatu.getText();
         return this;
     }
 
+    @Step("Click my quot")
     public DiaryQuotPage clickMyQuot(){
         myQuotLink.click();
 

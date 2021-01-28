@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_diary;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.atiuleneva.dz6.pages_crm.HomePage;
 import org.jsoup.Connection;
@@ -24,29 +25,34 @@ public class DiaryLoginPage extends Base {
 
     public DiaryLoginPage(WebDriver driver) { super(driver); }
 
+    @Step("Click login menu item")
     public DiaryLoginPage clickDropLogin(){
         dropLogin.click();
 
         return this;
     }
 
+    @Step("Enter login")
     public DiaryLoginPage enterLogin(String login){
         inputLogin.sendKeys(login);
 
         return this;
     }
 
+    @Step("Enter password")
     public DiaryLoginPage enterPassword(String password){
         inputPassword.sendKeys(password);
 
         return this;
     }
 
+    @Step("Click submit")
     public DiaryHomePage clickSubmit() {
         submit.click();
         return new DiaryHomePage(driver);
     }
 
+    @Step("Login if required (in case if user unauthorized")
     public DiaryHomePage loginIfRequired(String user, String password){
         try {
             dropLogin.click();

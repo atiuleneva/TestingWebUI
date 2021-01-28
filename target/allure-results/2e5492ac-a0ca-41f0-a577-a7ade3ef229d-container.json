@@ -1,0 +1,1 @@
+{"uuid":"2e5492ac-a0ca-41f0-a577-a7ade3ef229d","name":"CRM: Testing create project functionality","children":["6bbe76ca-cb6e-4b26-afe2-18f23bcafd97"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1611856854058,"stop":1611856854078}],"afters":[],"links":[],"start":1611856854057,"stop":1611856881473}

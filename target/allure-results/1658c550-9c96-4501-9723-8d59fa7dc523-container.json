@@ -1,0 +1,1 @@
+{"uuid":"1658c550-9c96-4501-9723-8d59fa7dc523","name":"CRM: Testing login functionality","children":["f8f29eee-1f63-4601-a9de-dbb3ae297b5b"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1611841366873,"stop":1611841367687}],"afters":[],"links":[],"start":1611841366838,"stop":1611841378850}

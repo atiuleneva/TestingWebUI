@@ -9,6 +9,7 @@ org\atiuleneva\dz6\base\Base.class
 org\atiuleneva\dz4\DZ4_Junit.class
 org\atiuleneva\dz6\pages_crm\CreateProjectPage.class
 org\atiuleneva\dz6\pages_crm\LoginPage.class
+org\atiuleneva\dz6\helpers\Screenshot.class
 org\atiuleneva\dz4\DZ4_Junit$ImpossibleTriangleException.class
 org\atiuleneva\dz6\pages_diary\DiaryHomePage.class
 org\atiuleneva\dz6\pages_crm\AllProjectsPage.class
