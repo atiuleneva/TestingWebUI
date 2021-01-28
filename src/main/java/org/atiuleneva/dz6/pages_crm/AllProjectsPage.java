@@ -18,7 +18,7 @@ public class AllProjectsPage extends Base {
     public AllProjectsPage(WebDriver driver) {
         super(driver);
     }
-
+    @Step("Click on create project button")
     public CreateProjectPage clickCreateProject()
     {
         createProject.click();
