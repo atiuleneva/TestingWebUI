@@ -1,18 +1,23 @@
 package org.atiuleneva.dz6.crmTests;
 
+import io.qameta.allure.Feature;
 import org.atiuleneva.dz6.BaseTest.BaseTest;
 import org.atiuleneva.dz6.base.Base;
 import org.atiuleneva.dz6.pages_crm.AllProjectsPage;
 import org.atiuleneva.dz6.pages_crm.CreateProjectPage;
 import org.atiuleneva.dz6.pages_crm.HomePage;
 import org.atiuleneva.dz6.pages_crm.LoginPage;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 
 import static org.atiuleneva.dz6.Configuration.Configuration.*;
 
+@Feature("CRM: Testing create project functionality")
+@DisplayName("CRM: Testing create project functionality")
 public class CreateProjectTest extends BaseTest {
     @Test
+    @DisplayName("Create project - positive test")
     public void createProjectTest() throws InterruptedException {
         //login
         driver.get(CRM_URL + CRM_LOGIN_PATH);

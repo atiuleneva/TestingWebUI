@@ -1,0 +1,1 @@
+{"uuid":"5b9f29de-ef6a-4e95-8b18-ae7e747369ad","name":"CRM: Testing create contact functionality","children":["77bbb1fd-b16e-4e9e-8a5f-1bdc25b58731"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1611856129221,"stop":1611856130634}],"afters":[],"links":[],"start":1611856129184,"stop":1611856153344}

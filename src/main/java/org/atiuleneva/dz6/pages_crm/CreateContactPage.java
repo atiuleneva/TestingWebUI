@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_crm;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,18 +30,21 @@ public class CreateContactPage extends Base {
         super(driver);
     }
 
+    @Step("Enter last name")
     public CreateContactPage enterLastName(String name){
         lastName.sendKeys(name);
 
         return this;
     }
 
+    @Step("Enter first name")
     public CreateContactPage enterFirstName(String name){
         firstName.sendKeys(name);
 
         return this;
     }
 
+    @Step("Select organisation")
     public CreateContactPage selectOrganisation (){
         selectOrganisation.click();
         organisationItem.click();
@@ -48,6 +52,7 @@ public class CreateContactPage extends Base {
         return this;
     }
 
+    @Step("Select job title Manager")
     public CreateContactPage selectJobTitleManager(){
         jobTitle.click();
         jobTitle.sendKeys("Manager");
@@ -56,6 +61,7 @@ public class CreateContactPage extends Base {
         return this;
     }
 
+    @Step("Save contact")
     public ContactsPage saveContact(){
         createContact.click();
 

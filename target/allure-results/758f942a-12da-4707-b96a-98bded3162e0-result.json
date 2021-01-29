@@ -1,0 +1,1 @@
+{"uuid":"758f942a-12da-4707-b96a-98bded3162e0","historyId":"c4ec00a5cc6622820638097b43728ed3","labels":[{"name":"suite","value":"org.atiuleneva.dz4.DZ4_JunitTest"},{"name":"package","value":"org.atiuleneva.dz4.DZ4_JunitTest"}],"links":[],"name":"testNaN_triangleSquare_thenIllegalArgumentException()","status":"passed","stage":"finished","start":1611748170000,"stop":1611748170008}

@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_diary;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,7 @@ public class DiaryQuotPage extends Base {
         super(driver);
     }
 
+    @Step("Check Тату-конвенция quot")
     public DiaryQuotPage checkTatuQuot(String header){
         String quoteTitle = tatu.getText();
 
@@ -25,6 +27,7 @@ public class DiaryQuotPage extends Base {
         return this;
     }
 
+    @Step("Click delete Тату-конвенция")
     public DiaryQuotPage delTatu(){
         delToQuote.click();
         driver.navigate().refresh();

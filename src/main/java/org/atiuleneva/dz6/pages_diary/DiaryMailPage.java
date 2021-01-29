@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_diary;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
@@ -19,18 +20,22 @@ public class DiaryMailPage extends Base {
 
     public DiaryMailPage(WebDriver driver) {super(driver);}
 
+
+    @Step("Navigate to inbox folder")
     public DiaryMailPage navigateToInboxFolder(){
         linkInboxFolder.click();
 
         return this;
     }
 
+    @Step("Navigate to Welcome letter")
     public DiaryMailPage navigateToWelcomeLetter(){
         linkWelcomeLetter.click();
 
         return this;
     }
 
+    @Step("Check text good wishes")
     public DiaryMailPage checkTextGoodWishes(){
         String text = textGoodWishes.getText();
         Assertions.assertEquals(text,"Желаем приятных знакомств и легкой работы на сайте!");

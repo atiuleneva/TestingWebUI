@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_diary;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.atiuleneva.dz6.views_diary.DiaryMenuBar;
 import org.junit.jupiter.api.Assertions;
@@ -23,6 +24,7 @@ public class DiaryHomePage extends Base {
         Assertions.assertEquals(driver.getCurrentUrl(), url+"/");
     }
 
+    @Step("Click Тату-конвенция")
     public DiaryNewsPage clickNews(){
         selectNews.click();
 

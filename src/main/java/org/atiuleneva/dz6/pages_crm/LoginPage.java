@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_crm;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.atiuleneva.dz6.pages_crm.HomePage;
 import org.openqa.selenium.WebDriver;
@@ -23,16 +24,17 @@ public class LoginPage extends Base {
         super(driver);
     }
 
+    @Step("Enter Login")
     public LoginPage enterLogin (String login){
         inputLogin.sendKeys(login);
         return this;
     }
-
+    @Step("Enter password")
     public LoginPage enterPassword(String password) {
         inputPassword.sendKeys(password);
         return this;
     }
-
+    @Step("Click Submit")
     public HomePage clickSubmit() {
         submit.click();
         return new HomePage(driver);

@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_crm;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -47,11 +48,13 @@ public class CreateProjectPage extends Base {
         super(driver);
     }
 
+    @Step("Enter project name")
     public CreateProjectPage enterProjectName(String name){
         projectName.sendKeys(name);
         return this;
     }
 
+    @Step("Select organisation")
     public CreateProjectPage selectOrganisation(String org){
         selectOrganisation.click();
 
@@ -65,6 +68,7 @@ public class CreateProjectPage extends Base {
         return this;
     }
 
+    @Step("Select business unit")
     public  CreateProjectPage selectBusinessUnit(String bunit){
         businessUnit.click();
         businessUnit.sendKeys(bunit);
@@ -73,6 +77,7 @@ public class CreateProjectPage extends Base {
         return this;
     }
 
+    @Step("Select curator")
     public CreateProjectPage selectCurator(String curat){
         curator.click();
         curator.sendKeys(curat);
@@ -81,6 +86,7 @@ public class CreateProjectPage extends Base {
         return this;
     }
 
+    @Step("Select project manager")
     public CreateProjectPage selectRP(String rp){
         projectRP.click();
         projectRP.sendKeys(rp);
@@ -89,6 +95,7 @@ public class CreateProjectPage extends Base {
         return this;
     }
 
+    @Step("Select manager")
     public CreateProjectPage selectManager(String manag){
         manager.click();
         manager.sendKeys(manag);
@@ -97,6 +104,7 @@ public class CreateProjectPage extends Base {
         return this;
     }
 
+    @Step("Select contact")
     public CreateProjectPage selectContact() throws InterruptedException {
         contact.click();
         Thread.sleep(3000);
@@ -105,6 +113,7 @@ public class CreateProjectPage extends Base {
         return this;
     }
 
+    @Step("Save project")
     public AllProjectsPage saveProject(){
         saveProject.click();
 

@@ -1,5 +1,6 @@
 package org.atiuleneva.dz6.pages_crm;
 
+import io.qameta.allure.Step;
 import org.atiuleneva.dz6.base.Base;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
@@ -17,14 +18,14 @@ public class AllProjectsPage extends Base {
     public AllProjectsPage(WebDriver driver) {
         super(driver);
     }
-
+    @Step("Click on create project button")
     public CreateProjectPage clickCreateProject()
     {
         createProject.click();
 
         return new CreateProjectPage(driver);
     }
-
+    @Step("Chek project save")
     public AllProjectsPage checkProjectSave()
     {
         String msg = message.getText();
